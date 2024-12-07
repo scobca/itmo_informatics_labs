@@ -10,7 +10,7 @@ def create_connection(path):
 
     return conn
 
-connection = create_connection('db/test.sqlite')
+connection = create_connection('../db/test.sqlite')
 
 def execute_query(conn, query):
     cursor = conn.cursor()

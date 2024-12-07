@@ -30,7 +30,7 @@ def create_db(connection, query):
         print(f"The error '{e}' occurred")
 
 
-connection = create_connection('localhost', 'root', '', 'test')
+connection = create_connection('localhost', 'root', 'Uw2xwUxMOmo', 'test')
 
 
 def execute_query(connection, query):

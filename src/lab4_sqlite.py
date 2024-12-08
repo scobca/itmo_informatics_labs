@@ -48,10 +48,25 @@ execute_query(connection, queries.create_orders_table)
 # execute_query(connection, queries.create_orders)
 
 # Выбираем все записи из таблицы books
-execute_read_query(connection, "SELECT * FROM books")
+# res = execute_read_query(connection, "SELECT * FROM books")
+# for r in res:
+#     print(r)
+# print(" ")
+# res = execute_read_query(connection, "SELECT * FROM authors")
+# for r in res:
+#     print(r)
+# print(" ")
+# res = execute_read_query(connection, "SELECT * FROM readers")
+# for r in res:
+#     print(r)
+# print(" ")
+# res = execute_read_query(connection, "SELECT * FROM orders")
+# for r in res:
+#     print(r)
+# print(" ")
 
-print(" ")
-
+# print(" ")
+#
 # Получаем информацию о книгах и их авторах, используя join
 res = execute_read_query(connection, queries.join_query_get_books)
 for r in res:

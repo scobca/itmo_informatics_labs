@@ -1,5 +1,3 @@
-from idlelib import query
-
 import mysql.connector
 from mysql.connector import Error
 
